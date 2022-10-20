@@ -4,7 +4,7 @@ import router from "./router.js";
 
 const PORT = 3000;
 const app = express();
-const DB_URL = `mongodb+srv://iliaz:useriliaz@cluster0.qulfmmf.mongodb.net/?retryWrites=true&w=majority`;
+const DB_URL = `*`;
 
 app.use(express.json());
 app.use('/api', router);
